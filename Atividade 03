@@ -1,0 +1,19 @@
+#include "stdio.h"
+
+
+int main()
+{
+	int media, a, b;
+
+				printf("Vamos somar a media de dois numeros para isso:\n");
+				printf("Digite o primeiro numero\n");
+		scanf("%d", &a);
+				printf("Agora digite o segundo numero\n");
+		scanf("%d", &b);
+
+	media = (a + b) / 2;
+				printf("Resultado:%d\n", media);
+
+			system("PAUSE");
+	return 0;
+}
